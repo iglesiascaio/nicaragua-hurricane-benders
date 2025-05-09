@@ -3,6 +3,12 @@
 
 This repository contains the full pipeline and optimization code for a two-stage stochastic facility location model designed for hurricane preparedness in northeastern Nicaragua. The work is inspired by a collaboration with UNICEF, focusing on the pre-positioning of humanitarian relief supplies in anticipation of storm-related disruptions.
 
+<p align="center">
+  <em>Study area and spatial setup</em><br>
+  <img src="heatmap_hurricane.png" alt="Heatmap and demand/warehouse setup" width="600"/>
+</p>
+
+
 ## Overview
 
 We use real data on:
@@ -29,15 +35,17 @@ This work applies a **stochastic optimization** framework, solved using **multi-
 * Recency-weighted planners (e.g., exponential) outperform uniform weighting.
 * Benders decomposition scales well and outperforms full-MIP on large instances.
 
+
 <p align="center">
-  <em>Figure 1 – Study area and spatial setup</em><br>
-  <img src="fig_heatmap.png" alt="Heatmap and demand/warehouse setup" width="600"/>
+  <em>Time-series Cross-validation results across five planning strategies</em><br>
+  <img src="compiled_results.png" alt="Performance metrics" width="500"/>
 </p>
 
 <p align="center">
-  <em>Figure 2 – Cross-validation results across five planning strategies</em><br>
-  <img src="fig_bars.png" alt="Performance metrics" width="500"/>
+  <em>Example of Strategy and performance under a hurricane scenario</em><br>
+  <img src="optimal_example.png" alt="Performance metrics" width="500"/>
 </p>
+
 
 
 ## Citation
