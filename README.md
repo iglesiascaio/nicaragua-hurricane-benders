@@ -5,7 +5,7 @@ This repository contains the full pipeline and optimization code for a two-stage
 
 <p align="center">
   <em>Study area and spatial setup</em><br>
-  <img src="heatmap_hurricane.png" alt="Heatmap and demand/warehouse setup" width="600"/>
+  <img src="heatmap_hurricane.png" alt="Heatmap and demand/warehouse setup" width="400"/>
 </p>
 
 
@@ -35,11 +35,14 @@ This work applies a **stochastic optimization** framework, solved using **multi-
 * Recency-weighted planners (e.g., exponential) outperform uniform weighting.
 * Benders decomposition scales well and outperforms full-MIP on large instances.
 
+Below, we have a summary of the main results: 
 
 <p align="center">
   <em>Time-series Cross-validation results across five planning strategies</em><br>
-  <img src="compiled_results.png" alt="Performance metrics" width="500"/>
+  <img src="compiled_results.png" alt="Performance metrics" width="700"/>
 </p>
+
+
 
 <p align="center">
   <em>Example of Strategy and performance under a hurricane scenario</em><br>
