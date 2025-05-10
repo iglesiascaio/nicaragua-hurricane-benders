@@ -1,0 +1,15 @@
+✓ Results written: 2025-05-05T00:03:34.820
+
+--- Optimal (Benders) ---
+Total objective   : 2.9341170782238796e7
+First‐stage cost  : 39884.58610607152
+Expected shipping : 396543.66911887674
+Expected unmet    : 2.890474252701385e7
+Built warehouses  : W64, W96, W85, W21, W22, W16, W50, W61, W69, W84, W40, W82, W2, W41
+
+--- Baseline (no disruptions) ---
+Total objective   : 6.63903713292926e7
+First‐stage cost  : 35506.201154302384
+Expected shipping : 17971.350508149437
+Expected unmet    : 6.633689377763015e7
+Built warehouses  : W36, W51, W3, W96, W1, W21, W16, W50, W42, W40, W70, W34, W6, W4
