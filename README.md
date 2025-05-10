@@ -6,7 +6,7 @@ This repository contains the full pipeline and optimization code for a two-stage
 
 <p align="center">
   <em>Study area and spatial setup</em><br>
-  <img src="heatmap_hurricane.png" alt="Heatmap and demand/warehouse setup" width="400"/>
+  <img src="images/heatmap_hurricane.png" alt="Heatmap and demand/warehouse setup" width="400"/>
 </p>
 
 ## Overview
@@ -37,12 +37,12 @@ This work applies a **stochastic optimization** framework, solved using **multi-
 
 <p align="center">
   <em>Time-series Cross-validation results across five planning strategies</em><br>
-  <img src="compiled_results.png" alt="Performance metrics" width="700"/>
+  <img src="images/compiled_results.png" alt="Performance metrics" width="700"/>
 </p>
 
 <p align="center">
   <em>Example of strategy and performance under a hurricane scenario</em><br>
-  <img src="optimal_example.png" alt="Performance metrics" width="500"/>
+  <img src="images/optimal_example.png" alt="Performance metrics" width="500"/>
 </p>
 
 ## Citation
