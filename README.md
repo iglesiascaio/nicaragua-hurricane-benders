@@ -1,4 +1,4 @@
-# Hurricane-Aware Facility Location in Nicaragua
+# Stochastic Benders Optimization for Hurricane Preparedness in Nicaragua
 
 This repository contains the full pipeline and optimization code for a two-stage stochastic facility location model designed for hurricane preparedness in northeastern Nicaragua. The work is inspired by a collaboration with UNICEF, focusing on the pre-positioning of humanitarian relief supplies in anticipation of storm-related disruptions.
 
