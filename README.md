@@ -1,13 +1,13 @@
-
 # Hurricane-Aware Facility Location in Nicaragua
 
 This repository contains the full pipeline and optimization code for a two-stage stochastic facility location model designed for hurricane preparedness in northeastern Nicaragua. The work is inspired by a collaboration with UNICEF, focusing on the pre-positioning of humanitarian relief supplies in anticipation of storm-related disruptions.
+
+> 📘 This project was developed as part of **15.083 Integer Optimization** at **MIT**, taught by Prof. Alexandre Jacquillat.
 
 <p align="center">
   <em>Study area and spatial setup</em><br>
   <img src="heatmap_hurricane.png" alt="Heatmap and demand/warehouse setup" width="400"/>
 </p>
-
 
 ## Overview
 
@@ -35,21 +35,15 @@ This work applies a **stochastic optimization** framework, solved using **multi-
 * Recency-weighted planners (e.g., exponential) outperform uniform weighting.
 * Benders decomposition scales well and outperforms full-MIP on large instances.
 
-Below, we have a summary of the main results: 
-
 <p align="center">
   <em>Time-series Cross-validation results across five planning strategies</em><br>
   <img src="compiled_results.png" alt="Performance metrics" width="700"/>
 </p>
 
-
-
 <p align="center">
-  <em>Example of Strategy and performance under a hurricane scenario</em><br>
+  <em>Example of strategy and performance under a hurricane scenario</em><br>
   <img src="optimal_example.png" alt="Performance metrics" width="500"/>
 </p>
-
-
 
 ## Citation
 
@@ -57,3 +51,4 @@ Below, we have a summary of the main results:
 * Boeing, G. (2017). **OSMnx: Methods for acquiring, constructing, and visualizing complex street networks**. *Computers, Environment and Urban Systems*.
 * Jacquillat, A. (2025). **Lecture Notes: Integer Optimization 15.083**. MIT Sloan School of Management.
 * Conforti, M., Cornuéjols, G., & Zambelli, G. (2014). **Integer Programming**. Graduate Texts in Mathematics, Vol. 271. Springer.
+
